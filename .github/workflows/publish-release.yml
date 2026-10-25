@@ -1,0 +1,37 @@
+name: Publish release
+on:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve assets
+        id: assets
+        run: |
+          VER="${GITHUB_REF_NAME#v}"
+          echo "ver=$VER" >> "$GITHUB_OUTPUT"
+          mkdir -p dist
+          BASE="https://dl.scsoi.com/releases"
+          curl -fsSL -o "dist/scsexpand-${VER}-setup-win64.exe" "$BASE/scsexpand-${VER}-setup-win64.exe"
+          curl -fsSL -o "dist/scsexpand-${VER}-portable-win64.zip" "$BASE/scsexpand-${VER}-portable-win64.zip"
+          ls -lah dist
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ScsExpand ${{ steps.assets.outputs.ver }}
+          body: |
+            ## ScsExpand ${{ steps.assets.outputs.ver }}
+
+            Official Windows builds mirrored from [expand.scsoi.com](https://expand.scsoi.com).
+
+            ### Downloads
+            - **Portable** (`.zip`) — unzip and run (recommended)
+            - **Installer** (`.exe`) — classic setup
+
+            Website: https://expand.scsoi.com
+          files: dist/*
+          fail_on_unmatched_files: true
