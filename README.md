@@ -46,9 +46,9 @@ Simple, stable, hassle-free. Small, clean, and ad-free.
 
 - **Same-disk expand** — Move free space from D: (or another data partition) to grow C: — files kept, capacities trade off.
 - **Guided expand** — Heavy moves run in a guided restart environment, so programs you already have open do not block the volume.
-- **Free expand quota** — Try it with a free capacity quota; buy once for unlimited expand count and size on this PC.
+- **Free expand quota** — The free version expands once, up to 5 GB, counted by expand count and size rather than by trial days; buy once for unlimited expand count and size on this PC.
 - **Small and clean** — Portable zip of roughly 64 MB (recommended) and a setup installer of roughly 64 MB. No ads, no bundled junk.
-- **Email support & updates** — Every plan, including the free trial, includes email support and ongoing feature updates.
+- **Email support & updates** — Every plan, including the free version, includes email support and ongoing feature updates.
 
 ## Typical situations
 
@@ -101,7 +101,7 @@ Requirements: Windows 10 / 11 (64-bit)
 
 ## Free quota and licensing
 
-The free download includes **1 expand, up to 5 GB**. After buyout the expand count and size are unlimited — limited only by the free space on the disk.
+The free download includes **1 expand, up to 5 GB**. The free version is a quota, not a time-limited trial — it is counted by expand count and size, not by trial days. After buyout the expand count and size are unlimited — limited only by the free space on the disk.
 
 A license is bound to **one PC** and cannot be transferred to another device. Organisations that need one purchase to cover several PCs can arrange multi-device seats by email.
 
@@ -162,7 +162,7 @@ Terms · Privacy · Refunds — [https://expand.scsoi.com/terms](https://expand.
 
 ## Support and disclosure
 
-ScsExpand is developed and published by SCSOI — we are the vendor of this product, not a neutral third-party reviewer. Questions, bug reports and purchase questions all reach the same inbox: **support@scsoi.com**. Every plan, including the free trial, includes email support and ongoing feature updates.
+ScsExpand is developed and published by SCSOI — we are the vendor of this product, not a neutral third-party reviewer. Questions, bug reports and purchase questions all reach the same inbox: **support@scsoi.com**. Every plan, including the free version, includes email support and ongoing feature updates.
 
 ---
 
