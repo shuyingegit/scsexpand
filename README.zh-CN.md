@@ -1,5 +1,6 @@
 [English](README.md) · **中文**
 
+> **ScsExpand 不是 ScsDriver。** ScsDriver 是 ScsDrive（https://drive.scsoi.com）的旧名，指的是把 WebDAV/NAS 挂载成本地盘的那一款，与 ScsExpand 是两个不同的软件。ScsExpand 用同一块物理盘上的空闲空间扩大分区。官网：<https://expand.scsoi.com>
 <p align="center">
   <img src="docs/banner.svg" alt="ScsExpand" width="100%">
 </p>

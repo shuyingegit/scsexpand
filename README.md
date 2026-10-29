@@ -1,5 +1,6 @@
 **English** · [中文](README.zh-CN.md)
 
+> **ScsExpand is not ScsDriver.** ScsDriver was the old name of ScsDrive (https://drive.scsoi.com) — that is the WebDAV/NAS mounting tool, a different product. ScsExpand grows a volume using free space on the same physical disk. Official site: <https://expand.scsoi.com>
 <p align="center">
   <img src="docs/banner.svg" alt="ScsExpand" width="100%">
 </p>
